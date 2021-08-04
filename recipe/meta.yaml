@@ -1,6 +1,6 @@
 {% set name = "redmapper" %}
-{% set version = "0.8.0" %}
-{% set sha256 = "b8442d564adc124b5a039e130cc315b51a9eceb36d8036f1893315a5225f0f7a" %}
+{% set version = "0.8.1" %}
+{% set sha256 = "a785f8ca6cdf854ad2ba9732c8111beaa17ffefa49415790ae119709a3cb1266" %}
 
 package:
   name: {{ name|lower }}
