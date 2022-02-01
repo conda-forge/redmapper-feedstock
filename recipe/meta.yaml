@@ -1,6 +1,6 @@
 {% set name = "redmapper" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "a785f8ca6cdf854ad2ba9732c8111beaa17ffefa49415790ae119709a3cb1266" %}
+{% set version = "0.8.2" %}
+{% set sha256 = "7aa4e8f46255f3d7dcdf58076b0cc554dbda9cc15f221a6c805a9bd0b74a0b12" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [py<37 or win]
 
