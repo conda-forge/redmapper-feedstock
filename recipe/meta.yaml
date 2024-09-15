@@ -26,6 +26,7 @@ requirements:
     - libblas
     - libcblas
     - numpy
+    - setuptools
   run:
     - python
     - astropy
