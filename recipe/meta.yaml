@@ -27,6 +27,7 @@ requirements:
     - libcblas
     - numpy
     - setuptools
+    - setuptools_scm
   run:
     - python
     - astropy
