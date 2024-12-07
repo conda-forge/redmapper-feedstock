@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: export SETUPTOOLS_SCM_PRETEND_VERSION="$PKG_VERSION"; {{ PYTHON }} -m pip install . -vv
   skip: true  # [py<37 or win]
 
@@ -30,7 +30,7 @@ requirements:
     - setuptools_scm
   run:
     - python
-    - astropy
+    - astropy-base
     - matplotlib-base
     - pyyaml
     - fitsio
