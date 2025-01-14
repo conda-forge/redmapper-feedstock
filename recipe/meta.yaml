@@ -30,7 +30,7 @@ requirements:
     - setuptools_scm
   run:
     - python
-    - astropy
+    - astropy-base
     - matplotlib-base
     - pyyaml
     - fitsio
